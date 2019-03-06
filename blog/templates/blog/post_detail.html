@@ -28,6 +28,8 @@
     {% for comment in post.comments.all %}
         <div class="comment">
 
+            <a href="{% url 'comment_remove' pk=comment.pk %}" style="color: red"><i class="far fa-minus-square"></i></a>
+
             <strong>{{ comment.author }}</strong>
             <div class="date">
                 <p>{{ comment.created_date }}</p>
