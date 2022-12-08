@@ -1,5 +1,5 @@
 django-crispy-forms
-certifi==2018.11.29
+certifi==2022.12.7
 Django==2.2.18
 Markdown==3.0.1
 mistune==0.8.4
